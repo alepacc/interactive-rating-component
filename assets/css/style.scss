@@ -20,6 +20,7 @@ body{
     font-size: 15px;
     font-family: 'Overpass';
     color: $grey-500;
+    line-height: 1.5;
 }
 
 h1{
@@ -111,13 +112,14 @@ button{
 
 }
 
-section.rating-result {
+.rating-result {
     filter: contrast(0.9);
-    color: orange;
+    color: $orange-500;
     background: hsl(213, 19%, 18%);
-    border-radius: 15px;
+    border-radius: 20px;
     width: fit-content;
-    padding: 10px 15px;
+    padding: 10px 20px;
+
 }
 
 
@@ -125,5 +127,5 @@ section.rating-result {
 article {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
 }
