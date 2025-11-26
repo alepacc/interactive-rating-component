@@ -42,7 +42,7 @@ button:focus {
 }
 button[type=submit] {
   background-color: hsl(25, 97%, 53%);
-  padding: 10px 50px 10px 50px;
+  padding: 10px 50px;
   text-transform: uppercase;
   border-radius: 20px;
 }
@@ -50,7 +50,7 @@ button[type=submit]:hover {
   background-color: hsl(0, 100%, 100%);
 }
 
-.rarting__btn {
+.rating__btn {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -78,14 +78,26 @@ button[type=submit]:hover {
 
 .card {
   background-color: hsl(213, 19%, 18%);
-  padding: 20px;
+  padding: 40px 20px;
   border-radius: 15px;
-  max-width: 350px;
+  max-width: 380px;
   width: 90%;
 }
 
 .thank-state {
   display: none;
+  text-align: center;
+  align-items: center;
+}
+
+section.rating-result {
+  filter: contrast(0.9);
+  color: orange;
+  background: hsl(213, 19%, 18%);
+  border-radius: 15px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px 15px;
 }
 
 article {
